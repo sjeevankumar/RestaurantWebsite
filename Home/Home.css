@@ -1,0 +1,151 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box; 
+}
+html{
+      scroll-behavior: smooth;
+}
+
+/* CSS for Page1 Starts here*/
+
+.header{
+      height: 90px;
+      width: 100vw;
+      margin: 0;
+      padding: 0;
+      position: sticky;
+      top: 0px;
+      z-index: 1;
+      background-color: white;
+}
+
+#cl{
+      float: left;
+      position: relative;
+      left: 100px;
+}
+
+#nav{
+      position: relative;
+      top: 0;
+}
+
+#nav li{
+      display: inline-block;
+      position: relative;
+      left: 350px;
+      top: 0px;      
+      height: 90px;
+      padding: 0px;
+      margin: 0px 5px;
+}
+
+#nav li a{
+      display: inline-block;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      font-size: 13px;
+      margin: 0;
+      height: 90px;
+     padding-top: 40px;
+     padding-left: 10px;
+     padding-right: 10px;
+      text-align: center;
+      
+
+}
+
+#nav li a:hover{
+      background-color:red;
+      color: white;
+}
+.slider{
+      overflow: hidden;
+}
+
+.slider figure{
+      position: relative;
+      width: 408%;
+      margin: 0;
+      padding: 0;
+      left: 0%;
+      animation: slider 10s infinite;
+}
+.slider img{
+      
+      width: 100vw;
+      height: 100vh;
+      float: left;
+      
+}
+
+@keyframes slider {
+      0%{
+            left:0;
+      }
+      20%{
+            left: 0;
+      }
+      25%{
+            left: -100vw;
+      }
+      45%{
+            left: -100vw;
+      }
+      50%{
+            left: -200vw;
+      }
+      70%{
+            left: -200vw;
+      }
+      75%{
+            left: -300vw;
+      }
+      100%{
+            left: -300vw;
+      }
+     
+
+}
+
+/* CSS for Page1 Ends here */
+
+/* CSS for Page2 Starts here */
+
+.page2{
+      height: 100vh;
+      margin: 0px 100px;
+}
+.cardsContainer{
+      height: 80vh;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+}
+.cards{
+      height: 498px;
+      width: 370.2px;
+}
+.p2h{
+      font-size: 30px;
+      text-align: center;
+      margin-top: 60px;
+      margin-bottom: 70px;
+      font-weight: 500;
+}
+.cardsImages{
+      width: 370px;
+      height: 332px;
+}
+.cardsHead{
+      margin: 10px 0px;
+      
+}
+.cardsPara{
+      line-height: 22px;
+
+}
+
